@@ -19,6 +19,5 @@ RUN apt-get install wget tmux build-essential software-properties-common python-
 
 RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get update
-RUN apt-get install oracle-java7-installer -y
-RUN apt-get install oracle-java7-set-default -y
-
+RUN apt-get install oracle-java8-installer -y
+RUN apt-get install oracle-java8-set-default -y
