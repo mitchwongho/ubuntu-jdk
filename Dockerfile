@@ -21,3 +21,4 @@ RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get update
 RUN apt-get install oracle-java8-installer -y
 RUN apt-get install oracle-java8-set-default -y
+ENV JAVA_HOME /usr/bin/java
